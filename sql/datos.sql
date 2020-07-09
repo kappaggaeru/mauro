@@ -1,0 +1,1 @@
+INSERT INTO producto (codigo,precio,nombre,detalles,id_categoria,id_coleccion,id_tipo) VALUES(001,950,'Sweater','Hecho a mano boee',1,1,1);

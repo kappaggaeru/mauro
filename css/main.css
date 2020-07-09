@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.navbar{
+    background-color: #f4df20;
+    width: 100%;
+    /* height: 40%; */
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.burgerItem{
+    order: 1;
+    margin: 3.5% 0 0 3.5%;
+}
+.titleItem{
+    order: 2;
+    margin: 3.5% 0 0 7.5%;
+}
+.searchItem{
+    order: 3;
+    margin: 3.5% 0 0 10%;
+}
+.shopItem{
+    order: 4;
+    margin: 3.5% 3.5% 0 0;
+}
+.titleMS{
+    font-size: 22px;
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+
+/* sidebar */
+.sideBar{
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+    color: #ffffff;
+    background-color: #000000;
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li{
+    font-size: 22px;
+    padding: 0 0 2% 0;
+    font-weight: bold;
+}
+.list{
+    margin: 20% 0 0 0;
+}
+/* border of li */
+.sideBar .list ul div{
+    border-bottom: 1px #ffffff solid;
+    margin: 0 3.5% 5% 3.5%;
+}
+.faq{
+    margin: 25% 0 0 0;
+    text-align: center;
+}
+.faq ul li{
+    margin: 0 0 3.5% 0;
+}
