@@ -9,12 +9,20 @@
 </head>
 <body>
 <nav class="navbar">
-	<div class="burgerItem"><img src="icons/burgerIcon.png"></div>
+	<div class="burgerItem" id="burger"><img src="icons/burgerIcon.png"></div>
 	<div class="titleItem"><a class="titleMS" href="#">MS Pinamar</a></div>
-	<div class="searchItem"><img src="icons/search.png"></div>
-	<div class="shopItem"><img src="icons/shoppingCart.png"></div>
+	<div class="searchItem" id="search"><img src="icons/search.png"></div>
+	<div class="shopItem" id="shop"><img src="icons/shoppingCart.png"></div>
 </nav>
-{* <div class=sideBar>
+<div class="searchBar">
+	{* <div class="triangle"></div> *}
+	<div>
+		<form>
+			<input type="text" placeholder="Búsqueda">
+		</form>
+	</div>
+</div>
+<div class=sideBar>
 	<div class="list">
 		<ul>
 			<div><li>Novedades</li></div>
@@ -30,4 +38,4 @@
 			<li>Acerca de</li>
 		<ul>
 	</div>
-</div> *}
+</div>
