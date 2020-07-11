@@ -3,19 +3,22 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/header.css">
+	<link rel="stylesheet" href="css/carousel.css">
 	<link rel="icon" href="icons/logoMS.svg" type="image/svg">
 	<title>MS Pinamar</title>
 </head>
 <body>
 <nav class="navbar">
-	<div class="burgerItem" id="burger"><img src="icons/burgerIcon.png"></div>
+	<div class="burgerItem">
+		<img src="icons/burgerIcon.png" id="openBurger">
+		<img src="icons/x.png" id="closeBurger">
+	</div>
 	<div class="titleItem"><a class="titleMS" href="#">MS Pinamar</a></div>
 	<div class="searchItem" id="search"><img src="icons/search.png"></div>
 	<div class="shopItem" id="shop"><img src="icons/shoppingCart.png"></div>
 </nav>
 <div class="searchBar">
-	{* <div class="triangle"></div> *}
 	<div>
 		<form>
 			<input type="text" placeholder="Búsqueda">
