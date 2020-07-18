@@ -4,7 +4,8 @@ class ConfigApp{
     public static $PARAMS = 'params';
     public static $ACTIONS = [
     'test' => 'Controller#test',
-    ''=>'Controller#home'
+    ''=>'Controller#home',
+    'producto'=>'Controller#producto'
     ];
 }
 ?>

@@ -4,7 +4,8 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="css/header.css">
-	<link rel="stylesheet" href="css/carousel.css">
+	<link rel="stylesheet" href="css/product.css">
+	<link rel="stylesheet" href="css/footer.css">
 	<link rel="icon" href="icons/logoMS.svg" type="image/svg">
 	<title>MS Pinamar</title>
 </head>

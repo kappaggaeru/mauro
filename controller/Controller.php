@@ -15,5 +15,8 @@ class Controller{
         $productos = $this->model->getProductos();
         $this->view->home($productos);
     }
+    function producto(){
+        $this->view->producto();
+    }
 }
 ?>

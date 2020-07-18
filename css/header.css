@@ -3,6 +3,12 @@ body,p{
     padding: 0;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+a{
+    cursor: pointer;
+}
+nav div{
+    cursor: pointer;
+}
 .navbar{
     background-color: #f4df20;
     position: sticky;
@@ -12,7 +18,7 @@ body,p{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 0 0 2% 0;
+    padding: 0 0 2.5% 0;
 }
 .burgerItem{
     order: 1;
@@ -144,14 +150,51 @@ input{
 
 /* content */
 .container{
-    /* margin: 2% 3.5% 2% 3.5%; */
-    /* position: fixed; */
     width: 100%;
     background-color: aqua;
-    /* overflow: scroll;     */
+    padding: 0 0 2% 0;
 }
 .texto{
     margin: 0 3.5% 2% 3.5%;
     padding: 1% 0 0 0;
     background-color: red;
+}
+.mgLeft{
+    margin-left: 3.5%;
+}
+.mgRight{
+    margin-right: 3.5%;
+}
+.pdLeft{
+    padding-left: 3.5%;
+}
+.pdRight{
+    padding-right: 3.5%;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+}
+.bold{
+    font-weight: bold;
+}
+.grayLine{
+    width: 100%;
+    height: 1px;
+    background: #C4C4C4;
+}
+.spcbtw{
+    justify-content: space-between;
+}
+.font20{
+    font-size: 20px;
+}
+.pdItemProd{
+    padding: 2% 0 5.5% 0;
+}
+.bgWhite{
+    background: #ffffff;
+}
+.pdDrop{
+    padding-top: 2%;
 }
