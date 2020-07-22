@@ -108,6 +108,8 @@ li{
 }
 input{
     border: none;
+}
+.searchInput{
     width: 100%;
     height: 100%;
     font-size: 22px;
@@ -160,10 +162,10 @@ input{
     background-color: red;
 }
 .mgLeft{
-    margin-left: 3.5%;
+    margin-left: 10.5%;
 }
 .mgRight{
-    margin-right: 3.5%;
+    margin-right: 10.5%;
 }
 .pdLeft{
     padding-left: 3.5%;
@@ -189,12 +191,9 @@ input{
 .font20{
     font-size: 20px;
 }
-.pdItemProd{
-    padding: 2% 0 5.5% 0;
-}
 .bgWhite{
     background: #ffffff;
 }
-.pdDrop{
-    padding-top: 2%;
+.toggle{
+    cursor: pointer;
 }

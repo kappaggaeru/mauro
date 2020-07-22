@@ -14,7 +14,6 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 1% 0 1%;
     background: #ffffff;
 }
 .shareProduct{
@@ -44,7 +43,6 @@
     flex-direction: row;
     justify-content: space-between;
     background: #ffffff;
-    padding-top: 3%;
 }
 .productColor{
     font-size: 20px;
@@ -56,18 +54,19 @@
     border-radius: 50%;
     border: 1px #000000 solid;
     margin: 2% 2% 2% 0;
+    cursor: pointer;
 }
 .sizes div{
-    height: 50px;
-    width: 50px;
+    min-width: 50px;
     border: 1px #000000 solid;
     background: #C4C4C4;
-    margin: 2% 5% 2% 0;
+    margin: 2% 4.5% 2% 0;
     text-align: center;
+    padding: 2.5% 0 2.5% 0;
+    cursor: pointer;
 }
 .sizes{
     flex-wrap: wrap;
-    padding: 2% 0 0 3.5%;
 }
 .sizesGuide{
     text-decoration: underline;
@@ -77,4 +76,36 @@
 .productDescription{
     color: #868181;
     font-size: 18px;
+}
+.pdTop1{
+    padding-top: 1%;
+}
+.pdTop2{
+    padding-top: 2%;
+}
+.pdTop3{
+    padding-top: 3%;
+}
+
+.pdBot1{
+    padding-bottom: 1%;
+}
+.pdBot2{
+    padding-bottom: 2%;
+}
+.pdBot3{
+    padding-bottom: 3%;
+}
+.quantity{
+    justify-content: end;
+}
+.quanInput{
+    width: 5%;
+    height: 100%;
+    font-size: 22px;
+    padding-left: 2%;
+}
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
 }

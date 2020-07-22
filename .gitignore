@@ -1,4 +1,4 @@
 assets/*
 templates_c/*
 libs/*
-carousel.*
+css/carousel.css

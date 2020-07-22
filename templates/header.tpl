@@ -22,7 +22,7 @@
 <div class="searchBar">
 	<div>
 		<form>
-			<input type="text" placeholder="Búsqueda">
+			<input type="text" placeholder="Búsqueda" class="searchInput">
 		</form>
 	</div>
 </div>
