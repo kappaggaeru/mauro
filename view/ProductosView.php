@@ -18,7 +18,7 @@ class ProductosView extends View{
         $this->smarty->display('templates/MostrarUsuarios.tpl');
     }
     function producto(){
-        $this->smarty->display('templates/producto.tpl');
+        $this->smarty->display('templates/product.tpl');
     }
 }
 ?>

@@ -9,15 +9,14 @@ a{
 nav div{
     cursor: pointer;
 }
-.navbar{
-    background-color: #f4df20;
-    position: sticky;
+.topBar{
     top: 0;
     width: 100%;
     height: 7.5%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+}
+.navbar{
+    background-color: #f4df20;
+    position: sticky;
     padding: 0 0 2.5% 0;
 }
 .burgerItem{
@@ -35,8 +34,9 @@ nav div{
 .shopItem{
     order: 4;
     margin: 3.5% 3.5% 0 0;
+    cursor: pointer;
 }
-.titleMS{
+.titleSite{
     font-size: 22px;
     text-decoration: none;
     color: #000000;
@@ -191,9 +191,59 @@ input{
 .font20{
     font-size: 20px;
 }
+.font16{
+    font-size: 16px;
+}
+.font18{
+    font-size: 18px;
+}
 .bgWhite{
     background: #ffffff;
 }
 .toggle{
     cursor: pointer;
+}
+
+/* cart */
+.cart{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #ffffff;
+    z-index: 1;
+}
+.cart.closed{
+    right: -100%;
+}
+.cart.closing{
+    animation-name: cart-closing;
+    animation-duration: 0.3s;
+}
+.cart.opening{
+    animation-name: cart-opening;
+    animation-duration: 0.3s;
+}
+@keyframes cart-opening{
+    from{right: -100%}
+	to{right: 0}
+}
+@keyframes cart-closing{
+    from{right: 0}
+	to{right: -100%}
+}
+
+.textCenter{
+    justify-content: center;
+}
+
+.bgPink{
+    background-color: pink;
+}
+.bgOrange{
+    background-color: orangered;
+}
+
+.border{
+    border: 1px black solid;
 }

@@ -1,0 +1,28 @@
+.imgItemCart{
+    width: 40%;
+    height: 150px;
+    /* border: 1px black solid; */
+}
+.imgItemCart img{
+    width: 100%;
+    height: 100%;
+}
+.flexCol{
+    display: flex;
+    flex-direction: column;
+}
+.grayLineSmall{
+    width: 90%;
+    height: 1px;
+    background: #C4C4C4;
+    margin: auto;
+}
+.stretch{
+    justify-content: stretch;
+}
+.inputQuanSmall{
+    width: 5%;
+}
+.quantityBoxSmall{
+    width: 40%;
+}
