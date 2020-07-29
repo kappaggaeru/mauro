@@ -21,7 +21,7 @@
         <img src="images/image7.png">
     </div>
     <div class="productInfo pdTop2 pdBot2">
-        <div class="pdLeft">Sweater Nelson</div>
+        <div class="pdLeft bold">Sweater Nelson</div>
         <div class="pdRight">$999</div>
     </div>
     <div class="productColor bold pdBot1">
@@ -67,16 +67,25 @@
     <div class="bold font20 pdTop3 pdBot3 bgWhite">
         <div class="flex spcbtw">
             <div class="pdLeft">Cantidad:</div>
-            {* <img src="icons/dropDown.png" class="pdRight" name="descDrop"> *}
             <div class="flex quantity pdRight">
-                <img src="icons/minus.png" class="mgRight" name="">
-                <input class="quanInput" type="number" value=1>
-                <img src="icons/plus.png" class="mgLeft" name="">
+                <img src="icons/minus.png" class="mgRight" name="quantityMinus">
+                <input type="number" class="quanInput" min="1" max="10">
+                <img src="icons/plus.png" class="mgLeft" name="quantityPlus">
             </div>
         </div>
     </div>
     <div class="grayLine"></div>
-        <div class="buyNow">Comprar ahora</div>
-        <div class="addToCart">Agregar al carrito</div>
+        <div class="bgWhite">
+        <div class="pdLeft pdRight pdTop3 pdBot3">
+            <div class="btnAddtoCart rounded greyBorder">
+                <p class="textAling pdTop3 pdBot3 pdLeft font20 bold">Agregar al carrito</p>
+            </div>    
+        </div>
+        <div class="pdLeft pdRight pdBot3">
+            <div class="btnAddtoCart rounded bgYellow">
+                <p class="textAling pdTop3 pdBot3 pdLeft font20 bold">Comprar ahora</p>
+            </div>    
+        </div>
+        </div>
 </div>
 {include file="footer.tpl"}

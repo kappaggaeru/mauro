@@ -3,16 +3,19 @@ body,p{
     padding: 0;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-a{
+nav div{
     cursor: pointer;
 }
-nav div{
+img,a{
     cursor: pointer;
 }
 .topBar{
     top: 0;
     width: 100%;
     height: 7.5%;
+}
+.bgYellow{
+    background-color: #f4df20;
 }
 .navbar{
     background-color: #f4df20;
@@ -236,12 +239,18 @@ input{
 .textCenter{
     justify-content: center;
 }
+.textAling{
+    text-align: center;
+}
 
 .bgPink{
     background-color: pink;
 }
 .bgOrange{
     background-color: orangered;
+}
+.bgGrey{
+    background-color: #C4C4C4;
 }
 
 .border{

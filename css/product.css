@@ -100,12 +100,27 @@
     justify-content: end;
 }
 .quanInput{
-    width: 5%;
+    width: 10%;
     height: 100%;
     font-size: 22px;
-    padding-left: 2%;
+    padding-left: 5%;
 }
 /* Firefox */
 input[type=number] {
     -moz-appearance: textfield;
+}
+
+.btnAddtoCart{
+    width: 100%;
+}
+.rounded{
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px white solid;
+}
+.greyBorder{
+    border: 1px #c4c4c4 solid;
+}
+div.rounded:hover{
+    border: 1px #000000 solid;
 }

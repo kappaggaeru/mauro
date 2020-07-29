@@ -7,6 +7,23 @@ let descDrop = document.querySelector('img[name="descDrop"]');
 let dropUp = "icons/dropUp.png";
 let dropDown = "icons/dropDown.png";
 
+let comboQuantity = document.querySelector('.quanInput');
+let quantity = 0;
+quantity = comboQuantity.value;
+
+document.querySelector('img[name="quantityMinus"]').addEventListener("click",function(){
+    if(quantity > 1){
+        quantity--;
+        comboQuantity.value = quantity;
+    }
+});
+document.querySelector('img[name="quantityPlus"]').addEventListener("click",function(){
+    if(quantity < 10){
+        quantity++;
+        comboQuantity.value = quantity;
+    }
+});
+
 document.querySelector('div[name="toggleSizes"]').addEventListener("click", function(){
     sizesDiv.classList.toggle("hidden");
     if(sizesDiv.classList.contains("hidden")){
