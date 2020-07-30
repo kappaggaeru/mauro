@@ -56,3 +56,29 @@ closeCart.addEventListener("click",function(){
     cart.classList.toggle("closing");
     cart.classList.toggle("closed");
 });
+
+let footAbout = document.querySelector('div[name="footAboutDrop"]');
+let footInfo = document.querySelector('div[name="footInfoDrop"]');
+
+let imgFootAbout = document.querySelector('img[name="footImgAbout"]');
+let imgFootInfo = document.querySelector('img[name="footImgInfo"]');
+
+let whiteDropDown = "icons/dropDownWhite.png";
+let whiteDropUp = "icons/dropUpWhite.png";
+
+document.querySelector('div[name="footAbout"]').addEventListener("click",function(){
+    footAbout.classList.toggle("hidden");
+    if(footAbout.classList.contains("hidden")){
+        imgFootAbout.src = whiteDropDown;
+    }else{
+        imgFootAbout.src = whiteDropUp;
+    }
+});
+document.querySelector('div[name="footInfo"]').addEventListener("click",function(){
+    footInfo.classList.toggle("hidden");
+    if(footInfo.classList.contains("hidden")){
+        imgFootInfo.src = whiteDropDown;
+    }else{
+        imgFootInfo.src = whiteDropUp;
+    }
+});

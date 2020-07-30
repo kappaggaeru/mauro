@@ -38,7 +38,7 @@
     <div class="grayLine"></div>
     <div class="productSize bold font20 bgWhite pdTop3 pdBot3">
         <div class="flex spcbtw toggle" name="toggleSizes">
-            <div class="pdLeft">Talle: XS</div>
+            <div class="pdLeft">Talle:</div>
             <img src="icons/dropUp.png" class="pdRight" name="sizesDrop">
         </div>
         <div name="sizesDropdown" class="">
@@ -69,7 +69,7 @@
             <div class="pdLeft">Cantidad:</div>
             <div class="flex quantity pdRight">
                 <img src="icons/minus.png" class="mgRight" name="quantityMinus">
-                <input type="number" class="quanInput" min="1" max="10">
+                <input type="number" class="quanInput " min="1" max="10" value="1">
                 <img src="icons/plus.png" class="mgLeft" name="quantityPlus">
             </div>
         </div>

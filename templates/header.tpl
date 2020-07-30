@@ -51,33 +51,150 @@
 	</div>
 </div>
 <div class="cart">
-	<div class="topBar flex spcbtw bgPink">
+	<div class="topBar flex spcbtw">
 		<span class="titleSite burgerItem">Carrito</span>
 		<div class="shopItem">
 			<img src="icons/x.png" id="closeCart">
 		</div>
 	</div>
 	<div class="grayLine"></div>
-	{* for *}
-	<div class="cartItem pdLeft pdTop3 pdBot3">
+	<div class="pdLeft pdTop3 pdBot3">
 		<div class="flex">
-			<div class="imgItemCart">
+			<div class="bgPink imgItemCart mgRight">
 				<img src="images/image7.png">
 			</div>
-			<div class="flexCol pdLeft">
-				<div>
-					<span class="font18 bold">Sweater Nelson (L)</span>
+			<div class="contentItemCart pdRight">
+				<div class=" subItemCart pdBot3">
+					<div class="flex spcbtw">
+						<div class="bold font20">Sweater Nelson</div>
+						<div class=""><img src="icons/trash.png"></div>
+					</div>
 				</div>
-				<div class="pdTop3">
-					<span class="font18 ">Color: Naranja</span>
+				<div class=" subItemCart pdBot3">
+					<div class="flex">
+						<div class="pdRight font18"><span class="bold">Color:</span> Naranja</div>
+						<div class="font18"><span class="bold">Talle:</span> XL</div>
+					</div>
 				</div>
-				<div class="pdTop3">
-					{* <div>
-						<img src="icons/minus.png">
-						<input type="number" value=1 class="inputQuanSmall">
-						<img src="icons/plus.png">
-					</div> *}
-					<span class="font18 ">$999</span>
+				<div class=" subItemCart pdBot3">
+					<div class="flex spcbtw">
+						<div class="">
+							<div class="flex">
+								<img src="icons/minus.png" class="" name="">
+								<input type="number" class="inputCart" min="1" max="10" value="1">
+								<img src="icons/plus.png" class="" name="">
+							</div>
+						</div>
+						<div class="font20">$999</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="pdLeft pdRight">
+		<div class="grayLine"></div>
+	</div>
+		<div class="pdLeft pdTop3 pdBot3">
+		<div class="flex">
+			<div class="bgPink imgItemCart mgRight">
+				<img src="images/image7.png">
+			</div>
+			<div class="contentItemCart pdRight">
+				<div class=" subItemCart pdBot3">
+					<div class="flex spcbtw">
+						<div class="bold font20">Sweater Nelson</div>
+						<div class=""><img src="icons/trash.png"></div>
+					</div>
+				</div>
+				<div class=" subItemCart pdBot3">
+					<div class="flex">
+						<div class="pdRight font18"><span class="bold">Color:</span> Naranja</div>
+						<div class="font18"><span class="bold">Talle:</span> XL</div>
+					</div>
+				</div>
+				<div class=" subItemCart pdBot3">
+					<div class="flex spcbtw">
+						<div class="">
+							<div class="flex">
+								<img src="icons/minus.png" class="" name="">
+								<input type="number" class="inputCart" min="1" max="10" value="1">
+								<img src="icons/plus.png" class="" name="">
+							</div>
+						</div>
+						<div class="font20">$999</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="pdLeft pdRight">
+		<div class="grayLine"></div>
+	</div>
+		<div class="pdLeft pdTop3 pdBot3">
+		<div class="flex">
+			<div class="bgPink imgItemCart mgRight">
+				<img src="images/image7.png">
+			</div>
+			<div class="contentItemCart pdRight">
+				<div class=" subItemCart pdBot3">
+					<div class="flex spcbtw">
+						<div class="bold font20">Sweater Nelson</div>
+						<div class=""><img src="icons/trash.png"></div>
+					</div>
+				</div>
+				<div class=" subItemCart pdBot3">
+					<div class="flex">
+						<div class="pdRight font18"><span class="bold">Color:</span> Naranja</div>
+						<div class="font18"><span class="bold">Talle:</span> XL</div>
+					</div>
+				</div>
+				<div class=" subItemCart pdBot3">
+					<div class="flex spcbtw">
+						<div class="">
+							<div class="flex">
+								<img src="icons/minus.png" class="" name="">
+								<input type="number" class="inputCart" min="1" max="10" value="1">
+								<img src="icons/plus.png" class="" name="">
+							</div>
+						</div>
+						<div class="font20">$999</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="pdLeft pdRight">
+		<div class="grayLine"></div>
+	</div>
+		<div class="pdLeft pdTop3 pdBot3">
+		<div class="flex">
+			<div class="bgPink imgItemCart mgRight">
+				<img src="images/image7.png">
+			</div>
+			<div class="contentItemCart pdRight">
+				<div class=" subItemCart pdBot3">
+					<div class="flex spcbtw">
+						<div class="bold font20">Sweater Nelson</div>
+						<div class=""><img src="icons/trash.png"></div>
+					</div>
+				</div>
+				<div class=" subItemCart pdBot3">
+					<div class="flex">
+						<div class="pdRight font18"><span class="bold">Color:</span> Naranja</div>
+						<div class="font18"><span class="bold">Talle:</span> XL</div>
+					</div>
+				</div>
+				<div class=" subItemCart pdBot3">
+					<div class="flex spcbtw">
+						<div class="">
+							<div class="flex">
+								<img src="icons/minus.png" class="" name="">
+								<input type="number" class="inputCart" min="1" max="10" value="1">
+								<img src="icons/plus.png" class="" name="">
+							</div>
+						</div>
+						<div class="font20">$999</div>
+					</div>
 				</div>
 			</div>
 		</div>
