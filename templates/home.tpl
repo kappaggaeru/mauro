@@ -1,27 +1,25 @@
 {include file="header.tpl"}
 <div class="container">
-    
-    <div class="texto">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat voluptatem temporibus mollitia officia neque. Id error cumque quas aut aliquam, blanditiis tempore mollitia nostrum dolor cupiditate. Minus perferendis eum sed?</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat voluptatem temporibus mollitia officia neque. Id error cumque quas aut aliquam, blanditiis tempore mollitia nostrum dolor cupiditate. Minus perferendis eum sed?</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat voluptatem temporibus mollitia officia neque. Id error cumque quas aut aliquam, blanditiis tempore mollitia nostrum dolor cupiditate. Minus perferendis eum sed?</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat voluptatem temporibus mollitia officia neque. Id error cumque quas aut aliquam, blanditiis tempore mollitia nostrum dolor cupiditate. Minus perferendis eum sed?</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat voluptatem temporibus mollitia officia neque. Id error cumque quas aut aliquam, blanditiis tempore mollitia nostrum dolor cupiditate. Minus perferendis eum sed?</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat voluptatem temporibus mollitia officia neque. Id error cumque quas aut aliquam, blanditiis tempore mollitia nostrum dolor cupiditate. Minus perferendis eum sed?</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat voluptatem temporibus mollitia officia neque. Id error cumque quas aut aliquam, blanditiis tempore mollitia nostrum dolor cupiditate. Minus perferendis eum sed?</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat voluptatem temporibus mollitia officia neque. Id error cumque quas aut aliquam, blanditiis tempore mollitia nostrum dolor cupiditate. Minus perferendis eum sed?</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat voluptatem temporibus mollitia officia neque. Id error cumque quas aut aliquam, blanditiis tempore mollitia nostrum dolor cupiditate. Minus perferendis eum sed?</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat voluptatem temporibus mollitia officia neque. Id error cumque quas aut aliquam, blanditiis tempore mollitia nostrum dolor cupiditate. Minus perferendis eum sed?</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat voluptatem temporibus mollitia officia neque. Id error cumque quas aut aliquam, blanditiis tempore mollitia nostrum dolor cupiditate. Minus perferendis eum sed?</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat voluptatem temporibus mollitia officia neque. Id error cumque quas aut aliquam, blanditiis tempore mollitia nostrum dolor cupiditate. Minus perferendis eum sed?</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat voluptatem temporibus mollitia officia neque. Id error cumque quas aut aliquam, blanditiis tempore mollitia nostrum dolor cupiditate. Minus perferendis eum sed?</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat voluptatem temporibus mollitia officia neque. Id error cumque quas aut aliquam, blanditiis tempore mollitia nostrum dolor cupiditate. Minus perferendis eum sed?</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat voluptatem temporibus mollitia officia neque. Id error cumque quas aut aliquam, blanditiis tempore mollitia nostrum dolor cupiditate. Minus perferendis eum sed?</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat voluptatem temporibus mollitia officia neque. Id error cumque quas aut aliquam, blanditiis tempore mollitia nostrum dolor cupiditate. Minus perferendis eum sed?</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat voluptatem temporibus mollitia officia neque. Id error cumque quas aut aliquam, blanditiis tempore mollitia nostrum dolor cupiditate. Minus perferendis eum sed?</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat voluptatem temporibus mollitia officia neque. Id error cumque quas aut aliquam, blanditiis tempore mollitia nostrum dolor cupiditate. Minus perferendis eum sed?</p>
+    <div class="pdLeft pdRight pdBot3">
+        <div class="box bgWhite">
+                <img src="images/image7.png">
+                <div class="btnAd bgYellow placedUp">INVIERNO 2020</div>
+                <div class="btnAd bgYellow placedDown">VER AHORA</div>
+        </div>
     </div>
-    <div class="promos">
+    <div class="pdLeft pdRight pdBot3">
+        <div class="box bgWhite">
+                <img src="images/image7.png">
+                <div class="btnAd bgYellow placedUp">INVIERNO 2020</div>
+                <div class="btnAd bgYellow placedDown">VER AHORA</div>
+        </div>
+    </div>
+    <div class="pdLeft pdRight pdBot3">
+        <div class="box bgWhite">
+                <img src="images/image7.png">
+                <div class="btnAd bgYellow placedUp">INVIERNO 2020</div>
+                <div class="btnAd bgYellow placedDown">VER AHORA</div>
+        </div>
     </div>
 </div>
 {* {foreach from=$productos item=p}

@@ -7,6 +7,7 @@
 	<link rel="stylesheet" href="css/product.css">
 	<link rel="stylesheet" href="css/cart.css">
 	<link rel="stylesheet" href="css/footer.css">
+	<link rel="stylesheet" href="css/home.css">
 	<link rel="icon" href="icons/logoMS.svg" type="image/svg">
 	<title>MS Pinamar</title>
 </head>

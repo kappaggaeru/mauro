@@ -6,7 +6,7 @@ body,p{
 nav div{
     cursor: pointer;
 }
-img,a{
+a{
     cursor: pointer;
 }
 .topBar{
@@ -21,6 +21,7 @@ img,a{
     background-color: #f4df20;
     position: sticky;
     padding: 0 0 2.5% 0;
+    z-index: 3;
 }
 .burgerItem{
     order: 1;
@@ -54,7 +55,7 @@ img,a{
     width: 100%;
     color: #ffffff;
     background-color: #000000;
-    z-index: 1;
+    z-index: 2;
 }
 .sideBar.closed{
     left:-100%;
@@ -107,7 +108,7 @@ li{
     top: 7.5%;
     width: 100%;
     height: 7.5%;
-    z-index: 2;
+    z-index: 3;
 }
 input{
     border: none;
@@ -146,12 +147,8 @@ input{
 /* content */
 .container{
     width: 100%;
-    background-color: aqua;
-}
-.texto{
-    margin: 0 3.5% 2% 3.5%;
-    padding: 1% 0 0 0;
-    background-color: red;
+    /* background-color: aqua; */
+    padding-top: 2%;
 }
 .mgLeft{
     margin-left: 2%;
@@ -203,7 +200,7 @@ input{
     bottom: 0;
     width: 100%;
     background-color: #ffffff;
-    z-index: 3;
+    z-index: 4;
 }
 .cart.closed{
     right: -100%;
