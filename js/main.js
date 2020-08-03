@@ -4,6 +4,7 @@ console.log("hello world");
 let sideBar = document.querySelector(".sideBar");
 let searchBar = document.querySelector(".searchBar");
 let cart = document.querySelector(".cart");
+let navBar = document.querySelector(".topBar");
 
 //buttons
 let openBurger = document.querySelector("#openBurger");
@@ -35,15 +36,12 @@ closeBurger.addEventListener("click",function(){
 
 // searchbar interaction
 document.querySelector("#search").addEventListener("click",function(){
-    if(searchBar.classList.contains("hidden")){
-        searchBar.classList.remove("hidden");
-        searchBar.classList.remove("close");
-        searchBar.classList.add("open");
-    }else{
-        searchBar.classList.remove("open");
-        searchBar.classList.add("close");
-        searchBar.classList.add("hidden");
-    }
+    searchBar.classList.remove("hidden");
+    navBar.classList.add("hidden");
+});
+document.querySelector("#closeSearch").addEventListener("click",function(){
+    searchBar.classList.add("hidden");
+    navBar.classList.remove("hidden");
 });
 
 openCart.addEventListener("click",function(){

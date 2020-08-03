@@ -5,7 +5,8 @@ class ConfigApp{
     public static $ACTIONS = [
     'test' => 'Controller#test',
     ''=>'Controller#home',
-    'producto'=>'Controller#producto'
+    'home'=>'Controller#home',
+    'product'=>'Controller#producto'
     ];
 }
 ?>

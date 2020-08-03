@@ -1,11 +1,13 @@
 {include file="header.tpl"}
 <div class="container">
     <div class="pdLeft pdRight pdBot3">
+        <a href="product">
         <div class="box bgWhite">
-                <img src="images/image7.png">
-                <div class="btnAd bgYellow placedUp">INVIERNO 2020</div>
-                <div class="btnAd bgYellow placedDown">VER AHORA</div>
+            <img src="images/image7.png">
+            <div class="btnAd bgYellow placedUp">INVIERNO 2020</div>
+            <div class="btnAd bgYellow placedDown">VER AHORA</div>
         </div>
+        </a>
     </div>
     <div class="pdLeft pdRight pdBot3">
         <div class="box bgWhite">
